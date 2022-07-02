@@ -128,13 +128,28 @@ button {
   color: hsl(245, 75%, 65%);
 }
 
-.payment-btn:hover{
-    cursor: pointer;
-    background-color: hsl(245, 75%, 65%);
-    border-color: hsl(245, 75%, 65%);
-} 
+.payment-btn:hover {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 65%);
+  border-color: hsl(245, 75%, 65%);
+}
 
-.cancel-btn:hover{
-    cursor: pointer;
-    color: rgba(0,0,0,1);
-} 
+.cancel-btn:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+}
+
+/*Mobile Layout*/
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+}
