@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL:(https://github.com/Kaushaljoshi29/order-summary-component-Frontend-Mentor)
+- Live Site URL:( https://kaushaljoshi29.github.io/order-summary-component-Frontend-Mentor/)
 
 ## My process
 
