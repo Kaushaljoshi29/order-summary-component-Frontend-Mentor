@@ -29,13 +29,8 @@ body {
   align-items: center;
 }
 
-main{
-    height: 100vh;
-}
-
 .container {
-  width: 50%;
-  height: 50%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -52,14 +47,16 @@ main{
 }
 
 .card-heading {
-  margin-bottom: 1.2rem;
-  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 1.2rem;
   font-weight: 900;
 }
 
 .card-description {
   margin-bottom: 1.2rem;
+  font-size: 0.9rem;
   color: var(--Desaturated-blue);
+  line-height: 1.2rem;
 }
 
 .plan-details-section {
@@ -68,7 +65,7 @@ main{
   justify-content: space-between;
   align-items: center;
   background-color: var(--Very-pale-blue);
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.7rem;
 }
 
@@ -84,13 +81,14 @@ main{
 
 .plan-name {
   color: var(--Dark-blue);
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 900;
+  font-size: 12.5px;
 }
 
 .plan-price {
+  margin-top: 2px;
   color: var(--Desaturated-blue);
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .plan-details-right a {
@@ -112,7 +110,7 @@ button {
   border-style: solid;
   color: white;
   font-weight: 700;
-  box-shadow: 0 15px 30px  var(--Desaturated-blue);
+  box-shadow: 0 15px 30px var(--Desaturated-blue);
 }
 
 .cancel-btn {
@@ -123,3 +121,20 @@ button {
   color: var(--Desaturated-blue);
   font-weight: 700;
 }
+
+/*Active States*/
+.plan-details-right a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 65%);
+}
+
+.payment-btn:hover{
+    cursor: pointer;
+    background-color: hsl(245, 75%, 65%);
+    border-color: hsl(245, 75%, 65%);
+} 
+
+.cancel-btn:hover{
+    cursor: pointer;
+    color: rgba(0,0,0,1);
+} 
