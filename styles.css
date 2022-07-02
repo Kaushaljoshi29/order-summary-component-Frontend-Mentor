@@ -110,7 +110,7 @@ button {
   border-style: solid;
   color: white;
   font-weight: 700;
-  box-shadow: 0 15px 30px var(--Desaturated-blue);
+  box-shadow: 0 15px 20px hsl(224, 23%, 85%);
 }
 
 .cancel-btn {
